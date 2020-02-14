@@ -1,4 +1,4 @@
-package DomainModel;
+package DomainLogicPatterns.DomainModel;
 
 public class Product {
     private String name;

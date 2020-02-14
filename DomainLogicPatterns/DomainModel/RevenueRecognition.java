@@ -1,4 +1,4 @@
-package DomainModel;
+package DomainLogicPatterns.DomainModel;
 
 public class RevenueRecognition {
     private Money amount;

@@ -1,4 +1,4 @@
-package DomainModel;
+package DomainLogicPatterns.DomainModel;
 
 public class Tester {
     private Product word = Product.newWordProcessor("Thinking Word");

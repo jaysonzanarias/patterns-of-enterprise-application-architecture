@@ -1,4 +1,4 @@
-package DomainModel;
+package DomainLogicPatterns.DomainModel;
 
 import java.util.ArrayList;
 import java.util.Iterator;

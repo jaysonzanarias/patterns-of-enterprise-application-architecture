@@ -1,4 +1,4 @@
-package DomainModel;
+package DomainLogicPatterns.DomainModel;
 
 public class ThreeWayRecognitionStrategy extends RecognitionStrategy {
     private int firstRecognitionOffset;
