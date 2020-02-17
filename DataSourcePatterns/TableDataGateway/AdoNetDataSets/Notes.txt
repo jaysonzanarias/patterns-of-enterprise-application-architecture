@@ -1,0 +1,4 @@
+To update data you manipulate the data set directly in some client code.
+    person.LoadAll();
+    person[key]["lastname"] = "Odell";
+    person.Holder.Update();
