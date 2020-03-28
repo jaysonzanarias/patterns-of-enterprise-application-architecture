@@ -1,0 +1,5 @@
+A simple example of an Page Controller displays some information about
+something. Here we’ll show it displaying some information about a recording
+artist.
+
+The URL runs along the lines of http://www.thingy.com/recordingApp/artist?name=danielaMercury.

@@ -1,0 +1,8 @@
+<servlet>
+    <servlet-name>artist</servlet-name>
+    <servlet-class>actionController.ArtistController</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>artist</servlet-name>
+<url-pattern>/artist</url-pattern>
+</servlet-mapping>
