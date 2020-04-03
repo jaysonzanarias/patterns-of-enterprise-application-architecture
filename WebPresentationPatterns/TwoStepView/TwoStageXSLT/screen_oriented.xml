@@ -1,0 +1,13 @@
+<screen>
+    <title>Zero Hour</title>
+    <field label="Artist">Astor Piazzola</field>
+    <table>
+        <row><cell>Tanguedia III</cell><cell>4:39</cell></row>
+        <row><cell>Milonga del Angel</cell><cell>6:30</cell></row>
+        <row><cell>Concierto Para Quinteto</cell><cell>9:00</cell></row>
+        <row><cell>Milonga Loca</cell><cell>3:05</cell></row>
+        <row><cell>Michelangelo '70</cell><cell>2:50</cell></row>
+        <row><cell>Contrabajisimo</cell><cell>10:18</cell></row>
+        <row><cell>Mumuki</cell><cell>9:32</cell></row>
+    </table>
+</screen>
