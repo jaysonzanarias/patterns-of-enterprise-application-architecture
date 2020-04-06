@@ -1,0 +1,27 @@
+<portType name="AlbumServiceSoap">
+    <operation name="GetAlbum">
+        <input message="s0:GetAlbumSoapIn" />
+        <output message="s0:GetAlbumSoapOut" />
+    </operation>
+</portType>
+<message name="GetAlbumSoapIn">
+    <part name="parameters" element="s0:GetAlbum" />
+</message>
+<message name="GetAlbumSoapOut">
+    <part name="parameters" element="s0:GetAlbumResponse" />
+</message>
+<s:element name="GetAlbum">
+    <s:complexType>
+        <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="key" nillable="true" type="s:string" />
+        </s:sequence>
+    </s:complexType>
+</s:element>
+<s:element name="GetAlbumResponse">
+    <s:complexType>
+        <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetAlbumResult"
+                       nillable="true" type="s0:AlbumDTO" />
+        </s:sequence>
+    </s:complexType>
+</s:element>
