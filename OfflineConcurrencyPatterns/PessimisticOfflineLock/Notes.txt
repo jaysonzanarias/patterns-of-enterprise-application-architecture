@@ -1,0 +1,3 @@
+table lock
+
+    create table lock(lockableid bigint primary key, ownerid bigint)
