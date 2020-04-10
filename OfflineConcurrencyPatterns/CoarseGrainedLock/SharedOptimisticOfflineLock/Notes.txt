@@ -1,0 +1,4 @@
+table version
+
+    create table version(id bigint primary key, value bigint,
+    modifiedBy varchar, modified datetime)
