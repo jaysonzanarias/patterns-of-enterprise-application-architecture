@@ -1,0 +1,8 @@
+try {
+    ThreadLocalRegistry.begin();
+    PersonFinder f1 = ThreadLocalRegistry.personFinder();
+    Person martin = f1.find(1);
+    assertEquals("Fowler", martin.getLastName());
+} finally {
+    ThreadLocalRegistry.end();
+}
