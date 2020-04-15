@@ -216,48 +216,117 @@ Enjoy! :)
 
 **Web Presentation Patterns**
 - Model View Controller
+    > Splits user interface interaction into three distinct roles.
+    <br>![Screenshot](images/ModelViewController.png)
+
 - Page Controller
+    > An object that handles a request for a specific page or action on a Web site.
+    <br>![Screenshot](images/PageController.png)
+
 - Front Controller
+    > A controller that handles all requests for a Web site.
+    <br>![Screenshot](images/FrontController.png)
+
 - Template View
+    > Renders information into HTML by embedding markers in an HTML page.
+    <br>![Screenshot](images/TemplateView.png)
+
 - Transform View
+    > A view that processes domain data element by element and transforms it into HTML.
+    <br>![Screenshot](images/TransformView.png)
+
 - Two Step View
+    > Turns domain data into HTML in two steps: first by forming some kind of logical page, then rendering the logical page into HTML.
+    <br>![Screenshot](images/TwoStepView.png)
+
 - Application Controller
+    > A centralized point for handling screen navigation and the flow of an application.
+    <br>![Screenshot](images/ApplicationController.png)
 
 <a name="DistributionPatterns"/>
 
 **Distribution Patterns**
 - Remote Facade
+    > Provides a coarse-grained facade on fine-grained objects to improve efficiency over a network.
+    <br>![Screenshot](images/RemoteFacade.png)
+
 - Data Transfer Object
+    > An object that carries data between processes in order to reduce the number of method calls.
+    <br>![Screenshot](images/DataTransferObject.png)
 
 <a name="OfflineConcurrencyPatterns"/>
 
 **Offline Concurrency Patterns**
 - Optimistic Offline Lock
-- Pessimistic Offline Lock
-- Coarse-Grained Lock
-- Implicit Lock
+    > Prevents conflicts between concurrent business transactions by detecting a conflict and rolling back the transaction.
+    <br>![Screenshot](images/OptimisticOfflineLock.png)
 
-<a name="SessionStatePatterns"/>
+- Pessimistic Offline Lock
+    > Prevents conflicts between concurrent business transactions by allowing only one business transaction at a time to access data.
+    <br>![Screenshot](images/PessimisticOfflineLock.png)
+
+- Coarse-Grained Lock
+    > Locks a set of related objects with a single lock.
+    <br>![Screenshot](images/CoarseGrainedLock.png)
+
+- Implicit Lock
+    > Allows framework or layer supertype code to acquire offline locks.
+    <br>![Screenshot](images/ImplicitLock.png)
 
 **Session State Patterns**
 - Client Session State
+    > Stores session state on the client.
+
 - Server Session State
+    > Keeps the session state on a server system in a serialized form.
+
 - Database Session State
+    > Stores session data as committed data in the database.
 
 <a name="BasePatterns"/>
 
 **Base Patterns**
 - Gateway
+    > An object that encapsulates access to an external system or resource.
+    <br>![Screenshot](images/Gateway.png)
+
 - Mapper
+    > An object that sets up a communication between two independent objects.
+    <br>![Screenshot](images/Mapper.png)
+
 - Layer Supertype
+    > A type that acts as the supertype for all types in its layer.
+
 - Separated Interface
+    > Defines an interface in a separate package from its implementation.
+    <br>![Screenshot](images/SeparatedInterface.png)
+
 - Registry
+    > A well-known object that other objects can use to find common objects and services.
+    <br>![Screenshot](images/Registry.png)
+
 - Value Object
+    > A small simple object, like money or a date range, whose equality isn’t based on identity.
+
 - Money
+    > Represents a monetary value.
+    <br>![Screenshot](images/Money.png)
+
 - Special Case
+    > A subclass that provides special behavior for particular cases.
+    <br>![Screenshot](images/SpecialCase.png)
+
 - Plugin
+    > Links classes during configuration rather than compilation.
+    <br>![Screenshot](images/Plugin.png)
+
 - Service Stub
+    > Removes dependence upon problematic services during testing.
+    <br>![Screenshot](images/ServiceStub.png)
+
 - Record Set
+    > An in-memory representation of tabular data.
+    <br>![Screenshot](images/RecordSet.png)
 
 ## Additional References
 - https://www.sourcecodeexamples.net/p/p-of-eaa.html
