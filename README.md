@@ -13,24 +13,24 @@ Enjoy! :)
 - Data Source
 
 ## Patterns
-Domain Logic Patterns
+[Domain Logic Patterns](#DomainLogicPatterns)
 - Transaction Script
 - Domain Model
 - Table Module
 - Service Layer
 
-Data Source Patterns
+[Data Source Patterns](#DataSourcePatterns)
 - Table Data Gateway
 - Row Data Gateway
 - Active Records
 - Data Mapper
 
-Object-Relational Behavior Patterns
+[Object-Relational Behavior Patterns](#ObjectRelationalBehaviorPatterns)
 - Unit of Work
 - Identify Map
 - Lazy Load
 
-Object-Relational Structural Patterns
+[Object-Relational Structural Patterns](#ObjectRelationalStructuralPatterns)
 - Identity Field
 - Foreign Key Mapping
 - Association Table Mapping
@@ -42,12 +42,12 @@ Object-Relational Structural Patterns
 - Concrete Table Inheritance
 - Inheritance Mappers
 
-Object-Relational Metadata Mapping Patterns
+[Object-Relational Metadata Mapping Patterns](#ObjectRelationalMetadataMappingPatterns)
 - Metadata Mapping
 - Query Object
 - Repository
 
-Web Presentation Patterns
+[Web Presentation Patterns](#WebPresentationPatterns)
 - Model View Controller
 - Page Controller
 - Front Controller
@@ -56,22 +56,22 @@ Web Presentation Patterns
 - Two Step View
 - Application Controller
 
-Distribution Patterns
+[Distribution Patterns](#DistributionPatterns)
 - Remote Facade
 - Data Transfer Object
 
-Offline Concurrency Patterns
+[Offline Concurrency Patterns](#OfflineConcurrencyPatterns)
 - Optimistic Offline Lock
 - Pessimistic Offline Lock
 - Coarse-Grained Lock
 - Implicit Lock
 
-Session State Patterns
+[Session State Patterns](#SessionStatePatterns)
 - Client Session State
 - Server Session State
 - Database Session State
 
-Base Patterns
+[Base Patterns](#BasePatterns)
 - Gateway
 - Mapper
 - Layer Supertype
@@ -85,7 +85,10 @@ Base Patterns
 - Record Set
 
 ## Details
-Domain Logic Patterns
+
+<a name="DomainLogicPatterns"/>
+
+**Domain Logic Patterns**
 - Transaction Script
     > Organizes business logic by procedures where each procedure handles a single request from the presentation.
     <br>![Screenshot](images/TransactionScript.jpg)
@@ -102,7 +105,9 @@ Domain Logic Patterns
     > Defines an application’s boundary with a layer of services that establishes a set of available operations and coordinates the application’s response in each operation.
     <br>![Screenshot](images/ServiceLayer.png)
 
-Data Source Patterns
+<a name="DataSourcePatterns"/>
+
+**Data Source Patterns**
 - Table Data Gateway
     > An object that acts as a Gateway to a database table. One instance handles all the rows in the table.
     <br>![Screenshot](images/TableDataGateway.png)
@@ -119,7 +124,9 @@ Data Source Patterns
     > A layer of Mappers (473) that moves data between objects and a database while keeping them independent of each other and the mapper itself.
     <br>![Screenshot](images/DataMapper.png)
 
-Object-Relational Behavior Patterns
+<a name="ObjectRelationalBehaviorPatterns"/>
+
+**Object-Relational Behavior Patterns**
 - Unit of Work
     > Maintains a list of objects affected by a business transaction and coordinates the writing out of changes and the resolution of concurrency problems.
     <br>![Screenshot](images/UnitOfWork.png)
@@ -138,7 +145,9 @@ Object-Relational Behavior Patterns
         - Value Holder
         - Ghost
 
-Object-Relational Structural Patterns
+<a name="ObjectRelationalStructuralPatterns"/>
+
+**Object-Relational Structural Patterns**
 - Identity Field
     > Saves a database ID field in an object to maintain identity between an in-memory object and a database row.
     <br>![Screenshot](images/IdentityField.png)
@@ -188,7 +197,9 @@ Object-Relational Structural Patterns
     > A structure to organize database mappers that handle inheritance hierarchies.
     <br>![Screenshot](images/InheritanceMappers.png)
 
-Object-Relational Metadata Mapping Patterns
+<a name="ObjectRelationalMetadataMappingPatterns"/>
+
+**Object-Relational Metadata Mapping Patterns**
 - Metadata Mapping
     > Holds details of object-relational mapping in metadata.
     <br>![Screenshot](images/MetadataMapping.png)
@@ -201,7 +212,9 @@ Object-Relational Metadata Mapping Patterns
     > Mediates between the domain and data mapping layers using a collection-like interface for accessing domain objects.
     <br>![Screenshot](images/Repository.png)
 
-Web Presentation Patterns
+<a name="WebPresentationPatterns"/>
+
+**Web Presentation Patterns**
 - Model View Controller
 - Page Controller
 - Front Controller
@@ -210,22 +223,30 @@ Web Presentation Patterns
 - Two Step View
 - Application Controller
 
-Distribution Patterns
+<a name="DistributionPatterns"/>
+
+**Distribution Patterns**
 - Remote Facade
 - Data Transfer Object
 
-Offline Concurrency Patterns
+<a name="OfflineConcurrencyPatterns"/>
+
+**Offline Concurrency Patterns**
 - Optimistic Offline Lock
 - Pessimistic Offline Lock
 - Coarse-Grained Lock
 - Implicit Lock
 
-Session State Patterns
+<a name="SessionStatePatterns"/>
+
+**Session State Patterns**
 - Client Session State
 - Server Session State
 - Database Session State
 
-Base Patterns
+<a name="BasePatterns"/>
+
+**Base Patterns**
 - Gateway
 - Mapper
 - Layer Supertype
