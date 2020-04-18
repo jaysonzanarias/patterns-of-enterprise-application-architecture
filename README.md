@@ -1,9 +1,9 @@
 # Patterns of Enterprise Application Architecture
-Compilation of sample codes from the book Patterns of Enterprise Application Architecture by Martin Fowler.
+Compilation of sample code from the book Patterns of Enterprise Application Architecture by Martin Fowler.
 
-I used and created this repo when I studied the book.
+I used and created this repo when I studied the book. Super worth reading it! 
 
-Super worth reading it! Read the book and learn more on each topic.
+Read the book and learn more on each topic.
 
 Enjoy! :)
 
@@ -329,6 +329,7 @@ Enjoy! :)
     <br>![Screenshot](images/RecordSet.png)
 
 ## Additional References
+- https://martinfowler.com/eaaCatalog/
 - https://www.sourcecodeexamples.net/p/p-of-eaa.html
 - Lazy Load: Ghost
     - https://stackoverflow.com/questions/58243839/how-to-implement-lazy-loading-using-ghost-object-in-java
