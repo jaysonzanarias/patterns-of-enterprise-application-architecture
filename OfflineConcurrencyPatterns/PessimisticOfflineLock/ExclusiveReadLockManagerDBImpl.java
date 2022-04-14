@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-public class ExclusiveReadLockManagerDBImpl {
+public class ExclusiveReadLockManagerDBImpl implements ExclusiveReadLockManager {
     private static final String INSERT_SQL = "insert into lock values(?, ?)";
     private static final String DELETE_SINGLE_SQL =
         "delete from lock where lockableid = ? and ownerid = ?";
